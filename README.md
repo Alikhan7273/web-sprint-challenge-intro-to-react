@@ -29,14 +29,19 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+  It is an open source library. It solves the problem of having to build multiple different components. You can build a component and use it over and over again.
 
-1. Describe component state.
+2. Describe component state.
+  State is mutable data that can be held and passed into components. State is created in class components but can then be passed to other components.
 
-1. Describe props.
+3. Describe props.
+  Props are immutable data that are passed around for users to interact with. These are passed through functional components.
 
-1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+4. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+  A side effect is anything that affects something outside the scope of the function being executed.  Using an effect hook will lets you perform side effects in function components.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
+
 
 ## Instructions
 
